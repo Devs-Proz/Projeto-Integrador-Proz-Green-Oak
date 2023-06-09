@@ -77,6 +77,64 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 Este projeto está em constante evolução e as decisões tomadas podem ser discutidas e alteradas pelos membros do grupo. Qualquer dúvida ou sugestão, sinta-se à vontade para entrar em contato.
 
+
+## Desenvolvido por:
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/kdu1977">
+        <img src="https://avatars.githubusercontent.com/u/120989981?v=4" width="100px;" alt="Foto de Carlos GitHub"/><br>
+        <sub>
+          <b>Carlos Eduardo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/jonathanfc14">
+        <img src="https://avatars.githubusercontent.com/u/89662751?v=4" width="100px;" alt="Foto do jonathan"/><br>
+        <sub>
+          <b>Jonathan Felix</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="">
+        <img src="" alt="Foto do juan no GitHub"/><br>
+        <sub>
+          <b>Juan Anjos</b>
+        </sub>
+      </a>
+    </td>
+   <td align="center">
+      <a href="">
+        <img src="" alt="Foto da Mariana no GitHub"/><br>
+        <sub>
+          <b>Mariana Souza</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/thaisaburiola">
+        <img src="https://avatars.githubusercontent.com/u/126434104?v=4" width="100px;" alt="Foto da Thaisa"/><br>
+        <sub>
+          <b>Thaísa Buriola</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/LaiFrance">
+        <img src="https://avatars.githubusercontent.com/u/91226847?v=4" width="100px;" alt="Foto da Laise no GitHub"/><br>
+        <sub>
+          <b>Laise France</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
+
 ## Agradecimentos
 
 Agradecemos a todos os membros do grupo pelo esforço e contribuição neste projeto integrador. O trabalho em equipe é fundamental para o sucesso do projeto.

@@ -148,12 +148,13 @@
   }
   
   .footer-social {
-    display: flex;
     align-items: center;
+    list-style: none;    
   }
   
   .footer-social li {
     margin-right: 10px;
+    padding: 5px;
   }
   
   .footer-social li a {

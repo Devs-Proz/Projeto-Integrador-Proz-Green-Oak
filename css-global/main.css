@@ -1,0 +1,172 @@
+/* Cores */
+:root {
+  --gunmetal: #2b3b37ff;
+  --dim-gray: #646867ff;
+  --white: #ffffffff;
+  --platinum: #e2e2e2ff;
+  --black: #000000ff;
+}
+
+/* Estilos gerais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.fixed-header {
+  background-color: var(--gunmetal);
+  color: var(--white);
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: var(--gunmetal);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.navbar-brand .logo {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin-left: 20px;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* Estilos responsivos para o navbar */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navbar-menu {
+    margin-top: 10px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.main {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  
+}
+
+.fixed-footer {
+  background-color: var(--gunmetal);
+  color: var(--white);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.img-centro {
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.footer-logo .logo {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer-social {
+  align-items: center;
+  list-style: none;
+}
+
+.footer-social li {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.footer-social li a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  background-color: var(--gunmetal);
+  padding: 10px;
+  text-align: center;
+  color: var(--white);
+}
+
+/* Estilos responsivos para o footer */
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+}
+
+

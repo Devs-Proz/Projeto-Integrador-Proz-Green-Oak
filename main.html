@@ -4,68 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="./css-global/main.css">
   <title>Green Oak</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
-
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <script type="text/javascript" src="./script/script.js"></script>
+   
 </head>
 
-<body>
-  <header class="fixed-header">
-    <nav class="navbar">
-      <div class="navbar-brand">
-        <a href="./Pages/Home/home.html" class="logo">Logo</a>
-      </div>
-      <div class="navbar-menu">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="./Pages/Home/home.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="./Pages/Produtos/produtos.html" class="nav-link">Produtos</a>
-          </li>
-          <li class="nav-item">
-            <a href="./Pages/Cadastro/cadastro.html" class="nav-link">Cadastro e Login</a>
-          </li>
-          <li class="nav-item">
-            <a href="./Pages/Sobre/sobre.html" class="nav-link">Sobre a Empresa</a>
-          </li>
-          <li class="nav-item">
-            <a href="./Pages/Carrinho-de-compras/carrinho.html" class="nav-link">Carrinho de Compra</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+<body onload="loadCommonElements()">
+  <div id="navbar-container"></div>
 
-  <main class="main">
-  
+  <main class="main-content">
+    <div class="img-centro" style="text-align: center;">
+      <img src="./imagens/home.png" alt="Logo" class="img-center" style="width: 100%;" padding="50px">
+    </div>
   </main>
 
-  <footer class="fixed-footer">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <a href="#" class="logo">Green Oak</a>
-          </div>
-          <ul class="footer-links">
-            <li><a href="#">Termos e Condições</a></li>
-            <li><a href="#">Política de Privacidade</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-          <ul class="footer-social" style='color: white'>
-            <i class='fa fa-facebook-official' style='color: white'></i> 
-            <i class='fa fa-instagram' style='color: white'></i>
-            <i class='fa fa-twitter' style='color: white'></i>
-            <i class='fa fa-youtube-play' style='color: white'></i>
-          </ul>
-        </div>   
-        <div class="footer-bottom">
-          &copy; Green Oak | Designed by Green Oak
-          <h5 style='color: white'>Green Oak</h5>
-          <h6>todos os direitos reservados</h6>
-        </div>
-  </footer>
+  <div id="footer-container"></div>
 </body>
 
 </html>

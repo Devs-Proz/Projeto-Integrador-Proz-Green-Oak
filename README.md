@@ -1,3 +1,9 @@
+<img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/4fb6da55-9d40-4f43-b658-d4bb65ad17e0" width="15%"></img>
+<img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/ccd5bdfc-5cba-4c19-acd0-f25add097395" width="15%"></img> <img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/156d2cbd-27cc-45a5-a7e5-ab2a8031d4c9" width="15%"></img> <img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/6d230c58-1fea-43cf-af5a-0b58ce4fa7f4" width="15%"></img> <img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/5c8ca993-7691-4e1b-972b-6673d4c0f610" width="15%"></img> <img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/2cd52bbb-1f89-4b61-be8c-499105432506" width="15%"></img> 
+<p align="center">
+</p>
+<img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/e30def1c-0e46-4fa2-9e7f-8ba9bec8997e" width="35%"></img>
+
 # Projeto Integrador - Ecommerce
 
 Este é o repositório do projeto integrador para o desenvolvimento de um ecommerce utilizando as tecnologias HTML, CSS e JavaScript.

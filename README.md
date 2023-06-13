@@ -115,7 +115,7 @@ Este projeto está em constante evolução e as decisões tomadas podem ser disc
     </td>
    <td align="center">
       <a href="">
-        <img src="" alt="Foto da Mariana no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/135074964?v=4" width="100px; alt="Foto da Mariana no GitHub"/><br>
         <sub>
           <b>Mariana Souza</b>
         </sub>

@@ -67,6 +67,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - CSS
 - JavaScript
 
+## Figma do Projeto ![figma](https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/b9405594-5ee7-4517-bce1-3ff941f8a9bc)
+[Confira o design do nosso projeto no Figma](https://www.figma.com/file/WXwbph7N25nps56LS24mg4/site-proz?type=design&node-id=0%3A1&t=BVwlcoalPIEq9p6M-1)
+
 ## Como Contribuir 🤝
 
 1. Faça um fork deste repositório.

@@ -76,6 +76,26 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## Diário do Projeto GREEN OAK
 [Confira o Diário do nosso projeto](https://github.com/Devs-Proz/Diario-de-grupo-3)
 
+## Dia 07/06/2023
+
+| Horário da Reunião | Decisões Tomadas |
+| :---: | :--- |
+| 22:00 - 23:50 | 1. Definido o tema: ecommerce 🛍️ <br> 2. Escolhido o tema da loja: móveis sustentáveis 🌳 <br> 3. Nome da marca: A definir ❓ <br> 4. Cores da página definidas: <br> - Gunmetal: `#2b3b37ff` 🖤 <br> - Dim-gray: `#646867ff` 💡 <br> - White: `#ffffffff` 🌟 <br> - Platinum: `#e2e2e2ff` 🌈 <br> 5. Layout das páginas: A definir 📐 |
+
+## Resumo da Reunião - 08/06/2023
+
+| Horário da Reunião | Decisões Tomadas |
+| :---: | :--- |
+| 20:00 - 23:30 | 1. Nome da página e logotipo definidos: "Green Oak" 🌳 <br> 2. Layout da página inicial definido 🏠 <br> 3. Estrutura de pastas definida no ambiente de desenvolvimento (VS Code) 📂 <br> 4. Verificadas as configurações do GitHub ✔️ |
+
+## Dia 13/06/2023
+
+| Evento | Detalhes |
+| :---: | :--- |
+| Entrega do Design no Figma | O design do projeto foi entregue na plataforma da Proz 📝 |
+| Planejamento das Próximas Reuniões | Decidido continuar com reuniões regulares no Google Meets e Discord 📅 |
+
+
 ## Como Contribuir 🤝
 
 1. Faça um fork deste repositório.

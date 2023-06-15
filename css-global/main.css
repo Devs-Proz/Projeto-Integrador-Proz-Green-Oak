@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 /* Cores */
 :root {
   --gunmetal: #2b3b37ff;
@@ -11,7 +12,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: var(--white);
   color: var(--black);
 }
@@ -169,4 +170,12 @@ body {
   }
 }
 
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
 
+.form-container form {
+  flex: 1;
+  margin-right: 20px;
+}

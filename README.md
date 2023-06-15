@@ -1,14 +1,22 @@
-# Projeto Integrador - Ecommerce
+![Green Retro Vintage Oak Tree Logo (Capa para Facebook) (1640 × 200 px)](https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/6ae48191-47d5-4cfc-8858-4cc8ff5c03e4)
+
+<img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/4fb6da55-9d40-4f43-b658-d4bb65ad17e0" width="15%"></img>
+<img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/ccd5bdfc-5cba-4c19-acd0-f25add097395" width="15%"></img> <img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/156d2cbd-27cc-45a5-a7e5-ab2a8031d4c9" width="15%"></img> <img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/6d230c58-1fea-43cf-af5a-0b58ce4fa7f4" width="15%"></img> <img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/5c8ca993-7691-4e1b-972b-6673d4c0f610" width="15%"></img> <img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/2cd52bbb-1f89-4b61-be8c-499105432506" width="15%"></img> 
+<p align="center">
+</p>
+<img src="https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/e30def1c-0e46-4fa2-9e7f-8ba9bec8997e" width="35%"></img>
+
+🌟 **Projeto Integrador - Ecommerce- GREEN OAK** 🌟
 
 Este é o repositório do projeto integrador para o desenvolvimento de um ecommerce utilizando as tecnologias HTML, CSS e JavaScript.
 
-## Sobre o Projeto
+## Sobre o Projeto ℹ️
 
 O objetivo deste projeto é criar uma loja online de móveis sustentáveis, levando em consideração a importância do meio ambiente e a necessidade de promover práticas mais conscientes. Optamos por focar em móveis sustentáveis para destacar a preocupação com a preservação do meio ambiente e oferecer uma opção diferenciada aos consumidores.
 
-A escolha desse tema foi motivada pela crescente demanda por produtos ecologicamente corretos e pelo desejo de contribuir para um mundo mais sustentável. Acreditamos que a união do comércio eletrônico com a sustentabilidade pode trazer benefícios não apenas para os consumidores, mas também para o planeta.
+A escolha desse tema foi motivada pela crescente demanda por produtos ecologicamente corretos e pelo desejo de contribuir para um mundo mais sustentável. Acreditamos que a união do comércio eletrônico com a sustentabilidade pode trazer benefícios não apenas para os consumidores, mas também para o planeta. 🌱🌍
 
-## Páginas Principais
+## Páginas Principais 📄
 
 O projeto inclui as seguintes páginas principais:
 
@@ -22,7 +30,7 @@ O projeto inclui as seguintes páginas principais:
 
 5. **Carrinho de Compra**: Página para que os usuários possam visualizar os produtos adicionados ao carrinho e finalizar a compra. Queremos tornar o processo de compra fácil e acessível, oferecendo opções de pagamento seguras e entregas rápidas.
 
-## Cores da Página
+## Cores da Página 🎨
 
 Para o design do projeto, foram definidas as seguintes cores:
 
@@ -31,27 +39,27 @@ Para o design do projeto, foram definidas as seguintes cores:
 - White: #ffffffff
 - Platinum: #e2e2e2ff
 
-## Acessibilidade
+## Acessibilidade ♿️
 
 Além da preocupação com a sustentabilidade, também estamos comprometidos em tornar nossa loja online acessível para todos os usuários. Estamos trabalhando para garantir que nossa plataforma seja inclusiva, seguindo as diretrizes de acessibilidade e tornando-a utilizável por pessoas com diferentes habilidades e necessidades.
 
-## Comunicação e Colaboração
+## Comunicação e Colaboração 💬🤝
 
 Durante o desenvolvimento do projeto, o grupo utilizou diferentes ferramentas para se comunicar e colaborar de forma eficiente:
 
-- **Discord**: Utilizamos o Discord como plataforma principal de comunicação em tempo real. Criamos canais específicos para discussões gerais, dúvidas técnicas e compartilhamento de recursos.
+- 📱 **Discord**: Utilizamos o Discord como plataforma principal de comunicação em tempo real. Criamos canais específicos para discussões gerais, dúvidas téc
 
-- **Google Meet**: Realizamos reuniões periódicas utilizando o Google Meet para discutir o andamento
+nicas e compartilhamento de recursos.
 
- do projeto, tomar decisões em grupo e esclarecer dúvidas mais complexas.
+- 📞 **Google Meet**: Realizamos reuniões periódicas utilizando o Google Meet para discutir o andamento do projeto, tomar decisões em grupo e esclarecer dúvidas mais complexas.
 
-- **GitHub**: Utilizamos o GitHub como repositório central para o código-fonte do projeto. Todos os membros do grupo tiveram acesso e puderam contribuir por meio de pull requests, revisões de código e resolução de problemas.
+- 💻 **GitHub**: Utilizamos o GitHub como repositório central para o código-fonte do projeto. Todos os membros do grupo tiveram acesso e puderam contribuir por meio de pull requests, revisões de código e resolução de problemas.
 
-- **Monday**: Utilizamos a plataforma Monday para gerenciar as tarefas e o progresso do projeto. Criamos um quadro Kanban para organizar as atividades, atribuir responsabilidades e acompanhar o status de cada etapa.
+- 🗓️ **Monday**: Utilizamos a plataforma Monday para gerenciar as tarefas e o progresso do projeto. Criamos um quadro Kanban para organizar as atividades, atribuir responsabilidades e acompanhar o status de cada etapa.
 
-- **Grupo no WhatsApp**: Além das ferramentas mencionadas, também mantivemos um grupo no WhatsApp como canal adicional de comunicação rápida e troca de informações importantes.
+- 📱 **Grupo no WhatsApp**: Além das ferramentas mencionadas, também mantivemos um grupo no WhatsApp como canal adicional de comunicação rápida e troca de informações importantes.
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 💻
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -59,7 +67,36 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - CSS
 - JavaScript
 
-## Como Contribuir
+## Figma do Projeto ![figma](https://github.com/Devs-Proz/Projeto-Integrador-Proz-Green-Oak/assets/91226847/b9405594-5ee7-4517-bce1-3ff941f8a9bc)
+[Confira o design do nosso projeto no Figma](https://www.figma.com/file/WXwbph7N25nps56LS24mg4/site-proz?type=design&node-id=0%3A1&t=BVwlcoalPIEq9p6M-1)
+
+## Board do Projeto 
+[Confira o Board do nosso projeto](https://github.com/orgs/Devs-Proz/projects/2)
+
+## Diário do Projeto GREEN OAK
+[Confira o Diário do nosso projeto](https://github.com/Devs-Proz/Diario-de-grupo-3)
+
+## Dia 07/06/2023
+
+| Horário da Reunião | Decisões Tomadas |
+| :---: | :--- |
+| 22:00 - 23:50 | 1. Definido o tema: ecommerce 🛍️ <br> 2. Escolhido o tema da loja: móveis sustentáveis 🌳 <br> 3. Nome da marca: A definir ❓ <br> 4. Cores da página definidas: <br> - Gunmetal: `#2b3b37ff` 🖤 <br> - Dim-gray: `#646867ff` 💡 <br> - White: `#ffffffff` 🌟 <br> - Platinum: `#e2e2e2ff` 🌈 <br> 5. Layout das páginas: A definir 📐 |
+
+## Resumo da Reunião - 08/06/2023
+
+| Horário da Reunião | Decisões Tomadas |
+| :---: | :--- |
+| 20:00 - 23:30 | 1. Nome da página e logotipo definidos: "Green Oak" 🌳 <br> 2. Layout da página inicial definido 🏠 <br> 3. Estrutura de pastas definida no ambiente de desenvolvimento (VS Code) 📂 <br> 4. Verificadas as configurações do GitHub ✔️ |
+
+## Dia 13/06/2023
+
+| Evento | Detalhes |
+| :---: | :--- |
+| Entrega do Design no Figma | O design do projeto foi entregue na plataforma da Proz 📝 |
+| Planejamento das Próximas Reuniões | Decidido continuar com reuniões regulares no Google Meets e Discord 📅 |
+
+
+## Como Contribuir 🤝
 
 1. Faça um fork deste repositório.
 
@@ -73,15 +110,13 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 6. Aguarde o review da equipe.
 
-## Observações
+## Observações 🔍
 
 Este projeto está em constante evolução e as decisões tomadas podem ser discutidas e alteradas pelos membros do grupo. Qualquer dúvida ou sugestão, sinta-se à vontade para entrar em contato.
 
+## Desenvolvido por: 👩‍💻👨‍💻
 
-## Desenvolvido por:
-<div align="center">
-
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <a href="https://github.com/kdu1977">
@@ -109,7 +144,7 @@ Este projeto está em constante evolução e as decisões tomadas podem ser disc
     </td>
    <td align="center">
       <a href="">
-        <img src="" alt="Foto da Mariana no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/135074964?v=4" width="100px; alt="Foto da Mariana no GitHub"/><br>
         <sub>
           <b>Mariana Souza</b>
         </sub>
@@ -133,11 +168,7 @@ Este projeto está em constante evolução e as decisões tomadas podem ser disc
     </td>
   </tr>
 </table>
-</div>
 
-## Agradecimentos
+## Agradecimentos 🙏
 
-Agradecemos a todos os membros do grupo pelo esforço e contribuição neste projeto integrador. O trabalho em equipe é fundamental para o sucesso do projeto.
-
-
-
+Agradecemos a todos os membros do grupo pelo esforço e contribuição neste projeto integrador. O trabalho em equipe é fundamental para o sucesso do projeto. 🎉

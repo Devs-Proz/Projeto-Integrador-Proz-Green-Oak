@@ -119,14 +119,6 @@ Este projeto está em constante evolução e as decisões tomadas podem ser disc
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://github.com/kdu1977">
-        <img src="https://avatars.githubusercontent.com/u/120989981?v=4" width="100px;" alt="Foto de Carlos GitHub"/><br>
-        <sub>
-          <b>Carlos Eduardo</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/jonathanfc14">
         <img src="https://avatars.githubusercontent.com/u/89662751?v=4" width="100px;" alt="Foto do jonathan"/><br>
         <sub>
@@ -135,16 +127,16 @@ Este projeto está em constante evolução e as decisões tomadas podem ser disc
       </a>
     </td>
     <td align="center">
-      <a href="">
-        <img src="" alt="Foto do juan no GitHub"/><br>
+      <a href="https://www.linkedin.com/in/dev-anjos/">
+        <img src="https://media.licdn.com/dms/image/D4D03AQEMeEpysZLMVA/profile-displayphoto-shrink_200_200/0/1673997092976?e=1692835200&v=beta&t=2tnu3kc_p1Yx76fEkGBjBTPqC9HwZhUZujSpbRaRXfw" width="100px; alt="Foto do juan no GitHub"/><br>
         <sub>
           <b>Juan Anjos</b>
         </sub>
       </a>
     </td>
    <td align="center">
-      <a href="">
-        <img src="https://avatars.githubusercontent.com/u/135074964?v=4" width="100px; alt="Foto da Mariana no GitHub"/><br>
+      <a href="https://www.linkedin.com/in/marianasouza-dc-developeruxui/">
+        <img src="https://media.licdn.com/dms/image/D4D03AQFGClj6kEfMwQ/profile-displayphoto-shrink_800_800/0/1686944521387?e=1692835200&v=beta&t=UsoHRBudpnmbd_xdgB4ydRXR7f7GzSlZXfYPD19Bk3Y" width="100px; alt="Foto da Mariana no GitHub"/><br>
         <sub>
           <b>Mariana Souza</b>
         </sub>

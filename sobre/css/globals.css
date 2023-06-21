@@ -1,0 +1,21 @@
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.container-center-horizontal {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+

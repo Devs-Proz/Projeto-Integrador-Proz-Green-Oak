@@ -1,0 +1,52 @@
+
+
+:root { 
+  --black: #000000;
+  --gray: #818085;
+  --maincolor: #ffffff;
+  --verde: #2b3b37;
+  --white: #ffffff;
+  --white1: #ffffff;
+ 
+  --font-size-l: 64px;
+  --font-size-m: 32px;
+  --font-size-s: 28px;
+  --font-size-xs: 26px;
+  --font-size-xxs: 20px;
+  --font-size-xxxs: 12px;
+  --font-size-xxxxs: 11px;
+ 
+  --font-family-montserrat: "Montserrat", Helvetica;
+}
+.montserrat-thin-white-12px {
+  color: var(--maincolor);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 100;
+}
+
+.montserrat-light-gray-11px {
+  color: var(--gray);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.montserrat-semi-bold-outer-space-64px {
+  color: var(--verde);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-normal-white-32px {
+  color: var(--maincolor);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+

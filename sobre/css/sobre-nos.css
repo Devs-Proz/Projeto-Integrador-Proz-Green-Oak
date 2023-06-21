@@ -1,0 +1,465 @@
+/* screen - sobre-nos */
+
+.sobre-nos {
+  align-items: center;
+  background-color: var(--maincolor);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 3407px;
+  overflow: hidden;
+  padding: 20px 0;
+  width: 1440px;
+}
+
+.sobre-nos .group-45 {
+  align-self: flex-end;
+  height: 30px;
+  margin-right: 50.37px;
+  margin-top: 113px;
+  width: 78px;
+}
+
+.sobre-nos .group-26 {
+  height: 84px;
+  margin-left: 120.1px;
+  margin-top: 47px;
+  width: 244px;
+}
+
+.sobre-nos .frame-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-right: 2.0px;
+  margin-top: 127px;
+  position: relative;
+  width: fit-content;
+}
+
+.sobre-nos .frame {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 16px 0px;
+  position: relative;
+  width: fit-content;
+}
+
+.sobre-nos .title {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.sobre-nos .group-29 {
+  height: 585px;
+  margin-right: -2.00px;
+  min-width: 1632px;
+  position: relative;
+}
+
+.sobre-nos .overlap-group-3 {
+  height: 585px;
+  left: 28px;
+  position: relative;
+  width: 1552px;
+}
+
+.sobre-nos .rectangle-22 {
+  height: 565px;
+  left: 68px;
+  width: 1440px;
+}
+
+.sobre-nos .rectangle-23 {
+  background: linear-gradient(180deg, rgba(100, 104, 103, 0.21) 0%, rgba(0, 0, 0, 0.65) 63.68%);
+  border-radius: 30px;
+  height: 565px;
+  left: 0;
+  width: 1552px;
+}
+
+.sobre-nos .nossos-mveis-so-fe {
+  left: 240px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  text-align: justify;
+  top: 203px;
+  width: 1099px;
+}
+
+.sobre-nos .impacto-social-e-econmico {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.sobre-nos .group-30 {
+  height: 565px;
+  margin-right: -2.00px;
+  min-width: 1492px;
+  position: relative;
+}
+
+.sobre-nos .overlap-group-4 {
+  height: 565px;
+  left: 25px;
+  position: relative;
+  width: 1465px;
+}
+
+.sobre-nos .rectangle-25 {
+  height: 565px;
+  left: 1px;
+  width: 1440px;
+}
+
+.sobre-nos .rectangle-24 {
+  background: linear-gradient(180deg, rgba(100, 104, 103, 0.21) 0%, rgba(0, 0, 0, 0.65) 61.6%);
+  height: 565px;
+  left: 0;
+  width: 1465px;
+}
+
+.sobre-nos .todo-trabalho-de-ret {
+  left: 186px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  text-align: justify;
+  top: 219px;
+  width: 1091px;
+}
+
+.sobre-nos .elegncia-e-autenticidade {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.sobre-nos .group-31 {
+  height: 565px;
+  margin-right: -2.00px;
+  min-width: 1504px;
+  position: relative;
+}
+
+.sobre-nos .overlap-group-5 {
+  height: 565px;
+  left: 23px;
+  position: relative;
+  width: 1465px;
+}
+
+.sobre-nos .rectangle-27 {
+  height: 565px;
+  left: 9px;
+  width: 1440px;
+}
+
+.sobre-nos .rectangle-26 {
+  background: linear-gradient(180deg, rgba(100, 104, 103, 0.22) 0%, rgba(0, 0, 0, 0.7) 54.83%);
+  height: 565px;
+  left: 0;
+  width: 1465px;
+}
+
+.sobre-nos .estamos-comprometido {
+  left: 181px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  text-align: justify;
+  top: 275px;
+  width: 1106px;
+}
+
+.sobre-nos .group-28 {
+  align-items: center;
+  display: flex;
+  gap: 69px;
+  height: 160px;
+  margin-left: 2.0px;
+  margin-top: 117px;
+  min-width: 1288px;
+}
+
+.sobre-nos .group-27 {
+  height: 113px;
+  margin-bottom: 0.99px;
+  width: 330px;
+}
+
+.sobre-nos .ao-escolher-os-mvei {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 160px;
+  text-align: justify;
+  width: 887px;
+}
+
+.sobre-nos .overlap-group4 {
+  height: 120px;
+  margin-left: 6.0px;
+  margin-top: 116px;
+  position: relative;
+  width: 1446px;
+}
+
+.sobre-nos .overlap-group {
+  align-items: center;
+  background-color: var(--verde);
+  display: flex;
+  height: 120px;
+  left: 0;
+  min-width: 1440px;
+  padding: 15.1px 34px;
+  position: absolute;
+  top: 0;
+}
+
+.sobre-nos .park {
+  height: 44px;
+  margin-bottom: 0;
+  width: 49px;
+}
+
+.sobre-nos .entre-em-contato {
+  color: var(--maincolor);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 0.89px;
+  margin-left: 512px;
+  min-height: 28px;
+  white-space: nowrap;
+  width: 229px;
+}
+
+.sobre-nos .overlap-group-container {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 81px;
+  min-height: 79px;
+  width: 493px;
+}
+
+.sobre-nos .overlap-group-1 {
+  height: 26px;
+  position: relative;
+  width: 493px;
+}
+
+.sobre-nos .e-mail {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 9px;
+  width: 45px;
+}
+
+.sobre-nos .rectangle-17 {
+  border-bottom-style: solid;
+  border-bottom-width: 0.7px;
+  border-color: var(--maincolor);
+  height: 26px;
+  left: 0;
+  width: 493px;
+}
+
+.sobre-nos .overlap-group-2 {
+  height: 33px;
+  position: relative;
+  width: 493px;
+}
+
+.sobre-nos .nome {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  width: 42px;
+}
+
+.sobre-nos .rectangle-18 {
+  border-bottom-style: solid;
+  border-bottom-width: 0.7px;
+  border-color: var(--maincolor);
+  height: 33px;
+  left: 0;
+  width: 493px;
+}
+
+.sobre-nos .arrow {
+  height: 5px;
+  left: 1366px;
+  position: absolute;
+  top: 78px;
+  width: 30px;
+}
+
+.sobre-nos .vector {
+  height: 18px;
+  left: 396px;
+  position: absolute;
+  top: 51px;
+  width: 18px;
+}
+
+.sobre-nos .vector-1 {
+  left: 350px;
+}
+
+.sobre-nos .vector-2 {
+  left: 441px;
+}
+
+.sobre-nos .group {
+  height: 48px;
+  left: 52px;
+  position: absolute;
+  top: 38px;
+  width: 139px;
+}
+
+.sobre-nos .group-container {
+  align-self: flex-start;
+  height: 62px;
+  margin-left: 34px;
+  margin-top: 10px;
+  position: relative;
+  width: 1140px;
+}
+
+.sobre-nos .group-1 {
+  align-items: center;
+  display: flex;
+  height: 62px;
+  left: 0;
+  min-width: 1140px;
+  position: absolute;
+  top: 0;
+}
+
+.sobre-nos .formas-de-pagamento {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  min-width: 234px;
+  white-space: nowrap;
+}
+
+.sobre-nos .group-8 {
+  align-items: center;
+  display: flex;
+  gap: 17px;
+  margin-left: 39px;
+  margin-top: 0.94px;
+  min-width: 194px;
+}
+
+.sobre-nos .mastercard-1 {
+  align-self: flex-end;
+  height: 24px;
+  margin-bottom: 0;
+  object-fit: cover;
+  width: 32px;
+}
+
+.sobre-nos .visa-1 {
+  height: 14px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 43px;
+}
+
+.sobre-nos .elo-1-1 {
+  height: 17px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 45px;
+}
+
+.sobre-nos .bandeira-amex-png-1 {
+  height: 25px;
+  object-fit: cover;
+  width: 25px;
+}
+
+.sobre-nos .logopix_powered_by {
+  height: 18px;
+  margin-left: 19px;
+  object-fit: cover;
+  width: 50px;
+}
+
+.sobre-nos .boleto-logo-0-1 {
+  height: 62px;
+  margin-left: 13px;
+  object-fit: cover;
+  width: 62px;
+}
+
+.sobre-nos .copyright {
+  height: 10px;
+  margin-left: 179px;
+  margin-top: 16.0px;
+  width: 10px;
+}
+
+.sobre-nos .greenoakcombr {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 6px;
+  margin-top: 13.0px;
+  min-height: 13px;
+  min-width: 93px;
+  white-space: nowrap;
+}
+
+.sobre-nos .todos-os-direitos-reservados {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 83px;
+  margin-top: 13.0px;
+  min-height: 13px;
+  min-width: 152px;
+  white-space: nowrap;
+}
+
+.sobre-nos .rectangle {
+  position: absolute;
+  top: 0;
+}
+
+.sobre-nos .vector-3 {
+  height: 18px;
+  position: absolute;
+  top: 51px;
+  width: 18px;
+}

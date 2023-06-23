@@ -1,0 +1,23 @@
+.titulo__banner{
+    align-items: center;
+}
+
+.titulo__principal{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.banner{
+    text-align: center;
+   align-items: center;
+   margin: 0 0.5em;
+}
+
+.banner img{
+    width: 95%;
+    
+    
+   
+}

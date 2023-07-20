@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://www.locofy.ai/builder/64b70129c9cbf01732251c0b?screen=325%3A104 -->
+<html edit=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+  <title></title>
+  <meta name="description" content=""><style>:root {
+
+/* fonts */
+--font-montserrat: Montserrat;
+
+/* font sizes */
+--font-size-base: 16px;
+--font-size-5xl: 24px;
+--font-size-xs: 12px;
+--font-size-2xs: 11px;
+--font-size-xl: 20px;
+--font-size-7xl: 26px;
+--font-size-37xl: 56px;
+--font-size-17xl: 36px;
+--font-size-3xs: 10px;
+--font-size-13xl: 32px;
+--font-size-45xl: 64px;
+--font-size-29xl: 48px;
+--font-size-11xl: 30px;
+
+/* Colors */
+--color-white: #fff;
+--cinza: #646867;
+--color-dimgray-100: rgba(100, 104, 103, 0.62);
+--color-dimgray-200: rgba(100, 104, 103, 0.2);
+--verde: #2b3b37;
+--color-black: #000;
+--color-gray: #818085;
+
+/* Gaps */
+--gap-5xl: 24px;
+--gap-sm: 14px;
+--gap-base: 16px;
+--gap-45xl: 64px;
+
+/* Paddings */
+--padding-lg: 18px;
+--padding-0: 0px;
+--padding-base: 16px;
+
+/* border radiuses */
+--br-3xs: 10px;
+--br-8xs: 5px;
+--br-11xl: 30px;
+
+}</style><style>#_lbb i {
+        position: absolute;
+        display: block;
+        width: 6px;
+        height: 6px;
+        background-color: #fff;
+        border: 1px solid #457eff;
+        border-radius: 50%;
+      }
+      #_lbb i:first-child {
+        top: -3px;
+        left: -3px;
+      }
+      #_lbb i:nth-child(2) {
+        top: -3px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      #_lbb i:nth-child(3) {
+        top: -3px;
+        right: -3px;
+      }
+      #_lbb i:nth-child(4) {
+        top: 50%;
+        left: -3px;
+        transform: translateY(-50%);
+      }
+      #_lbb i:nth-child(5) {
+        top: 50%;
+        right: -3px;
+        transform: translateY(-50%);
+      }
+      #_lbb i:nth-child(6) {
+        bottom: -3px;
+        left: -3px;
+      }
+      #_lbb i:nth-child(7) {
+        bottom: -3px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      #_lbb i:last-child {
+        bottom: -3px;
+        right: -3px;
+      }
+      html[edit] #__app *:not([data-locofyid]) {
+        pointer-events: none !important;
+      }
+      html[edit] #__app *[data-locofyid] {
+        pointer-events: auto;
+      }
+.activeUsersGroup {
+    pointer-events: none;
+    z-index: 100;
+  }
+  [class*="activeUsers-"]{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 100;
+  }
+  .activeUser{
+    background: #fff;
+    padding: 0 3px;
+    height: 13px;
+    line-height: 13px;
+    border-radius: 2px 2px 0 0;
+    max-width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 10px;
+    color: #fff;
+    z-index: 100;
+  }
+  html:not([edit]) .activeUsersGroup,
+  html:not([edit]) .activeUser  {
+    display: none;
+  }</style>
+      <script>function _run() {
+    const pe = 'parentElement', d = document, bb = d.createElement("div"), _es = bb.style;
+    const body = d.body, docElem = d.documentElement;
+    bb.setAttribute("id", "_lbb");
+    bb.setAttribute("style", "display: none; background: rgba(69, 126, 255, 0.4); border: 1px solid #457EFF; z-index: 2147483647; position: fixed; top: 0; left: 0; pointer-events: none;");
+    bb.innerHTML += '<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>';
+    body.prepend(bb);
+    let mode = "edit", curEl;
+
+    function align(el, notify) {
+      // console.log('el', el);
+      if(el && mode === 'edit' && el.getAttribute) {
+        if(bb && !bb[pe]) body.prepend(bb);
+
+        const elId = el.getAttribute("data-locofyid");
+
+        notify && window.parent.postMessage({ info: [{id: elId}] });
+
+        const app = document.getElementById("__app")
+        const scrollTop = docElem.scrollTop || body.scrollTop;
+        const scrollLeft = docElem.scrollLeft || body.scrollLeft;
+        const bounds = el.getBoundingClientRect();
+        const currentLeft = bounds.left + scrollLeft;
+        const currentTop = bounds.top + scrollTop;
+        const currentWidth = bounds.width;
+        const currentHeight = bounds.height;
+        _es.left = currentLeft - scrollLeft + "px";
+        _es.top = currentTop - scrollTop + "px";
+        _es.width = currentWidth + "px";
+        _es.height = currentHeight + "px";
+        _es.display = el && el[pe] && el[pe][pe] !== body ? 'block': 'none';
+
+      } else {
+        _es.display = 'none';
+      }
+    }
+
+    let unObserve;
+    const docObs = new ResizeObserver(() => align(curEl));
+
+    function observe(newEl, notify) {
+      if(newEl === curEl) return;
+      if(newEl) {
+        unObserve && unObserve();
+
+        const ro = new ResizeObserver(entries => align(entries[0].target));
+        ro.observe(newEl);
+
+        let lastPosition = newEl.getBoundingClientRect();
+        const interval = setInterval(() => {
+          const newPosition = newEl.getBoundingClientRect();
+          if (newPosition.x !== lastPosition.x || newPosition.y !== lastPosition.y) {
+            lastPosition = newPosition;
+            align(newEl);
+            _es.transition = 'all 0.2s ease-out';
+          } else _es.transition = '';
+        }, 100);
+
+        unObserve = () => { ro.unobserve(newEl); clearInterval(interval); };
+      }
+      curEl = newEl;
+      align(newEl, notify);
+    }
+    docObs.observe(body);
+
+    window.addEventListener("scroll", () => align(curEl));
+    d.addEventListener("mousedown", e => {
+      window.parent.postMessage({ clicked: true });
+      let el = e.target, ev;
+      if (el && mode === "edit" && el.getAttribute) {
+        e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation(); 
+        el.blur && el.blur();
+
+        const id = el.getAttribute("data-locofyid");
+        id && observe(el, true);
+
+        if(el) {
+          ev = (e) => {e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation(); };
+          el.addEventListener("click", ev);
+        }
+      }
+
+      const mouseUp = (e) => {
+        d.removeEventListener("mouseup", mouseUp);
+        d.removeEventListener("mouseleave", mouseUp);
+        el && ev && setTimeout(() => el.removeEventListener("click", ev), 10);
+      };
+
+      d.addEventListener("mouseup", mouseUp);
+      d.addEventListener("mouseleave", mouseUp);
+    });
+
+    window.addEventListener("message", (e) => {
+      const data = (e && e.data) || {};
+     if (data.type === 2) return;
+     const selectedId = data.selectedNodeId;
+
+     if (selectedId) {
+       if (mode !== "edit") { _es.display = "none"; return; }
+      const target = d.querySelector("[data-locofyid='" + selectedId + "']");
+      observe(target);
+     } else if (!selectedId && !data.mode && !data.scrollToSelectedNode) {
+      _es.display = "none";
+     } else if (data.mode === "edit") {
+      mode = "edit";
+      _es.display = "block";
+     } else if (data.mode === "preview") {
+      mode = "preview";
+      _es.display = "none";
+    }
+    });
+   }
+   if(document.readyState !== 'loading') _run();
+   else window.addEventListener("DOMContentLoaded", _run);
+function renderActiveUserNodes (evt) {
+    const data = evt.data;
+    if(data.type !== 2) return;
+
+    const users = data.message;
+    const scale = data.scale;
+    const userId = data.userId;
+    let activeNodes = users;
+    const obs = window.__auobs = window.__auobs || [];
+    const activeUsrGElem = document.getElementsByClassName('activeUsersGroup');
+    const activeUsrElem = document.getElementsByClassName('activeUsers');
+
+    while (activeUsrGElem.length > 0) activeUsrGElem[0].remove();
+    while (activeUsrElem.length > 0) activeUsrElem[0].remove();
+    while (obs.length > 0) obs.shift().unobserve(document.body);
+
+    if(activeNodes && activeNodes[0]) {
+      for(let k = 0; k<activeNodes.length; k++) {
+        const node = activeNodes[k], id = node.id, nElem = document.querySelectorAll('[data-locofyid="' + id + '"]')[0] || null;
+        if (typeof(nElem) != 'undefined' && nElem != null) {
+          const alignActiveUser = (isResizeObs) => {
+            const bc = nElem.getBoundingClientRect();
+            const top = window.pageYOffset + bc.top;
+            const nodeWidth = nElem.offsetWidth;
+            const nodeHeight = nElem.offsetHeight;
+            const left = Math.round(window.pageXOffset + bc.left);
+
+            let ug = document.getElementById("activeUsersGroup-" + id);
+            if(!ug){
+              ug = document.createElement("div");
+              document.body.append(ug);
+            }
+            ug.setAttribute("id", "activeUsersGroup-" + id);
+            ug.setAttribute("class", "activeUsersGroup activeUsersGroup-" + id);
+            ug.setAttribute("style", "position: absolute; top: " + top + "px; left: " + left + "px; width: " + nodeWidth + "px; height: " + nodeHeight + "px;");
+            ug.style.border = '1px solid ' + node.users[0].color;
+
+            let ex = document.getElementById("activeUsers-" + id);
+            let ue = ex || document.createElement("div");
+            ue.setAttribute("id", "activeUsers-" + id);
+            ue.setAttribute("class", "activeUsers activeUsers-" + id);
+            ue.setAttribute("style", "position: absolute; top: " + Math.round(top - 13/scale) + "px; left: " + left + "px; width: " + nodeWidth + "px;");
+            let iH = '';
+            node.users.forEach((user, index, array) => {
+              if(nElem && !isResizeObs) {
+                const id = 'activeuser' + user.userId;
+                const userS = document.getElementById(id);
+                const name = user.userId === userId ? 'You' : user.name;
+                const bg = 'background-color: ' + user.color + ';';
+                const fs = 'font-size: ' + Math.round(10 / scale) + 'px;';
+                const h = 'height: ' + Math.round(13 / scale) + 'px;';
+                const lh = 'line-height: ' + Math.round(13 / scale) + 'px;';
+                iH += '<div class="activeUser" id=' + id + ' style="' + bg + fs + h + lh + '">' + name + '</div>';
+              }
+              iH && (ue.innerHTML  = iH);
+            });
+            !ex && document.body.append(ue);
+          }
+          alignActiveUser();
+          const docObs = new ResizeObserver(() => alignActiveUser(1));
+          docObs.observe(document.body);
+          obs.push(docObs);
+        }
+      }
+    } else {
+      // console.log('No user found', users);
+    }
+  }
+
+  function _onloadfn() {
+    window.addEventListener("message", renderActiveUserNodes, false);
+  }
+  if(document.readyState !== 'loading') _onloadfn();
+  else window.onload = _onloadfn</script>
+  <link rel="stylesheet" href="./css2(1)">
+
+  <style>
+  
+  html[edit] {
+    overflow: hidden;
+  }
+  
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  
+  html[edit] body > *:nth-child(2) {
+    max-width: unset;
+    max-height: unset;
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+  }
+  @keyframes _ripple-kf {
+    0% {
+        transform: scale(0.4) rotateZ(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.1) rotateZ(0deg);
+        opacity: 1;
+    }
+  }
+  ._ripple {
+    width: 22px;
+    height: 22px;
+    background: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMjAgMjAiIHdpZHRoPSIyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBzdHJva2U9IiM0NTdlZmYiIHN0cm9rZS13aWR0aD0iMS4zMzMzMyI+PGNpcmNsZSBjeD0iOS43MzI0IiBjeT0iOS41NDUzMyIgcj0iMi41Ii8+PGNpcmNsZSBjeD0iOS43MzIzOCIgY3k9IjkuNTQ1NDkiIG9wYWNpdHk9Ii41IiByPSI1LjY2NjY3Ii8+PGNpcmNsZSBjeD0iOS43MzIzOSIgY3k9IjkuNTQ1NDEiIG9wYWNpdHk9Ii4yIiByPSI4LjgzMzMzIi8+PC9nPjwvc3ZnPg==") no-repeat center;
+    animation: 0.8s ease 0s infinite normal none _ripple-kf;
+  }
+  .botaocadastrar {
+position: absolute;
+top: 0px;
+left: 0px;
+border-radius: var(--br-3xs);
+background-color: var(--verde);
+border: 1px solid var(--verde);
+box-sizing: border-box;
+width: 200px;
+height: 72px;
+}
+.cadastrar {
+position: absolute;
+top: 16px;
+left: 36px;
+font-size: var(--font-size-5xl);
+letter-spacing: 0.05em;
+line-height: 40px;
+font-weight: 500;
+font-family: var(--font-montserrat);
+color: var(--color-white);
+text-align: justify;
+}
+.botaocadastrar-parent {
+cursor: pointer;
+border: none;
+padding: 0;
+background-color: transparent;
+position: absolute;
+top: 869px;
+left: 992px;
+width: 200px;
+height: 72px;
+}
+.fazer-cadastro {
+margin: 0;
+position: absolute;
+top: 105px;
+left: 833px;
+font-size: inherit;
+line-height: 40px;
+font-weight: 400;
+font-family: inherit;
+}
+.fazer-login {
+margin: 0;
+position: absolute;
+top: 105px;
+left: 177px;
+font-size: inherit;
+line-height: 40px;
+font-weight: 400;
+font-family: inherit;
+}
+.frame-child {
+position: absolute;
+top: 0px;
+left: 0px;
+background-color: var(--verde);
+width: 1440px;
+height: 120px;
+}
+.park-icon {
+position: absolute;
+top: 38.22px;
+left: 34px;
+width: 49px;
+height: 43.56px;
+}
+.entre-em-contato {
+position: absolute;
+top: 45.33px;
+left: 595px;
+font-size: var(--font-size-7xl);
+display: inline-block;
+width: 229px;
+height: 28.44px;
+}
+.e-mail {
+position: absolute;
+top: 24px;
+left: 905px;
+font-weight: 100;
+display: inline-block;
+width: 45px;
+height: 17px;
+}
+.nome {
+position: absolute;
+top: 78px;
+left: 905px;
+font-weight: 100;
+display: inline-block;
+width: 42px;
+height: 16px;
+}
+.frame-item {
+position: absolute;
+top: 15.11px;
+left: 905px;
+border-bottom: 0.7px solid var(--color-white);
+box-sizing: border-box;
+width: 493px;
+height: 25.78px;
+}
+.frame-inner {
+position: absolute;
+top: 61.33px;
+left: 905px;
+border-bottom: 0.7px solid var(--color-white);
+box-sizing: border-box;
+width: 493px;
+height: 32.89px;
+}
+.rectangle-parent {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 1440px;
+height: 120px;
+}
+.arrow-icon {
+position: absolute;
+top: 78.42px;
+left: 1366px;
+width: 30.35px;
+height: 5.15px;
+}
+.vector-icon {
+position: absolute;
+height: 15%;
+width: 1.25%;
+top: 42.5%;
+right: 71.25%;
+bottom: 42.5%;
+left: 27.5%;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+}
+.vector-icon2 {
+position: absolute;
+height: 15%;
+width: 1.25%;
+top: 42.5%;
+right: 74.44%;
+bottom: 42.5%;
+left: 24.31%;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+}
+.vector-icon4 {
+position: absolute;
+height: 15%;
+width: 1.25%;
+top: 42.5%;
+right: 68.13%;
+bottom: 42.5%;
+left: 30.63%;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+}
+.group-icon {
+position: absolute;
+height: 39.69%;
+width: 9.65%;
+top: 31.67%;
+right: 86.74%;
+bottom: 28.64%;
+left: 3.61%;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+}
+.frame {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 1440px;
+height: 120px;
+overflow: hidden;
+text-align: left;
+font-size: var(--font-size-xs);
+color: var(--color-white);
+font-family: var(--font-montserrat);
+}
+.mastercard-1-icon {
+position: relative;
+width: 31.59px;
+height: 24.39px;
+object-fit: cover;
+}
+.visa-1-icon {
+position: relative;
+width: 42.68px;
+height: 13.86px;
+object-fit: cover;
+}
+.elo-1-1 {
+position: relative;
+width: 44.9px;
+height: 17.18px;
+object-fit: cover;
+}
+.bandeira-amex-png-1 {
+position: relative;
+width: 24.94px;
+height: 24.94px;
+object-fit: cover;
+}
+.mastercard-1-parent {
+position: absolute;
+top: 19px;
+left: 273px;
+width: 194px;
+height: 24.94px;
+display: flex;
+flex-direction: row;
+padding: var(--padding-0) var(--padding-0) 0.00006103515625px;
+box-sizing: border-box;
+align-items: center;
+justify-content: flex-start;
+gap: var(--gap-base);
+}
+.formas-de-pagamento {
+position: absolute;
+top: 19px;
+left: 0px;
+font-size: var(--font-size-xl);
+color: var(--color-black);
+}
+.logopix-powered-by-banco-cent-icon {
+position: absolute;
+top: 22px;
+left: 486px;
+width: 50px;
+height: 18px;
+object-fit: cover;
+}
+.boleto-logo-0-1-icon {
+position: absolute;
+top: 0px;
+left: 549px;
+width: 62px;
+height: 62px;
+object-fit: cover;
+}
+.greenoakcombr {
+position: absolute;
+top: 31px;
+left: 806px;
+font-weight: 300;
+}
+.copyright-icon {
+position: absolute;
+height: 16.13%;
+width: 0.88%;
+top: 54.84%;
+right: 29.45%;
+bottom: 29.03%;
+left: 69.66%;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+}
+.todos-os-direitos {
+position: absolute;
+top: 31px;
+left: 982px;
+font-weight: 300;
+}
+.frame-group {
+align-self: stretch;
+position: relative;
+height: 62px;
+}
+.frame-container {
+align-self: stretch;
+position: relative;
+height: 62px;
+margin-top: -62px;
+}
+.frame1 {
+position: absolute;
+top: 130px;
+left: 34px;
+width: 1134px;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+text-align: left;
+font-size: var(--font-size-2xs);
+color: var(--color-gray);
+font-family: var(--font-montserrat);
+}
+.frame-parent {
+position: absolute;
+top: 1068px;
+left: 0px;
+width: 1440px;
+height: 229px;
+}
+.entrar {
+position: absolute;
+top: 16px;
+left: 62px;
+font-size: var(--font-size-5xl);
+letter-spacing: 0.05em;
+line-height: 40px;
+font-weight: 500;
+font-family: var(--font-montserrat);
+color: var(--color-white);
+text-align: justify;
+}
+.botaoentrar {
+cursor: pointer;
+border: none;
+padding: 0;
+background-color: transparent;
+position: absolute;
+top: 398px;
+left: 216px;
+width: 200px;
+height: 72px;
+}
+.inputemaillogin {
+border: 1px solid var(--verde);
+background-color: transparent;
+position: absolute;
+top: 0px;
+left: 0px;
+border-radius: var(--br-3xs);
+box-sizing: border-box;
+width: 600px;
+height: 72px;
+}
+.e-mail2 {
+position: absolute;
+top: 16px;
+left: 20px;
+line-height: 40px;
+font-weight: 200;
+}
+.inputemaillogin-parent {
+align-self: stretch;
+position: relative;
+height: 72px;
+font-size: var(--font-size-base);
+color: var(--cinza);
+}
+.e-mail-parent {
+align-self: stretch;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: var(--gap-sm);
+}
+.senha {
+position: relative;
+letter-spacing: 0.1em;
+line-height: 40px;
+}
+.frame-div {
+align-self: stretch;
+display: flex;
+flex-direction: column;
+padding: var(--padding-lg) var(--padding-0);
+align-items: flex-start;
+justify-content: flex-start;
+gap: var(--gap-5xl);
+}
+.esqueci-a-senha {
+cursor: pointer;
+border: none;
+padding: 0;
+background-color: transparent;
+position: relative;
+font-size: var(--font-size-xs);
+text-decoration: underline;
+letter-spacing: 0.05em;
+line-height: 40px;
+font-weight: 500;
+font-family: var(--font-montserrat);
+color: var(--color-black);
+text-align: justify;
+display: inline-block;
+}
+.frame4 {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 600px;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+justify-content: flex-start;
+}
+.ainda-no-tenho {
+position: absolute;
+top: 0px;
+left: 11px;
+letter-spacing: 0.1em;
+line-height: 40px;
+font-weight: 500;
+opacity: 0;
+}
+.ainda-no-tenho.animate {
+animation: 1s ease 0s 1 normal forwards fade-in
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+.line-div {
+position: absolute;
+top: 39.5px;
+left: -0.5px;
+border-top: 1px solid var(--color-black);
+box-sizing: border-box;
+width: 291px;
+height: 1px;
+}
+.frame5 {
+position: absolute;
+top: 540px;
+left: 171px;
+width: 290px;
+height: 40px;
+overflow: hidden;
+cursor: pointer;
+font-size: 18px;
+}
+.frame3 {
+flex: 1;
+position: relative;
+height: 580px;
+overflow: hidden;
+text-align: justify;
+font-size: var(--font-size-5xl);
+color: var(--color-black);
+font-family: var(--font-montserrat);
+}
+.frame-section {
+flex: 1;
+display: flex;
+flex-direction: column;
+padding: var(--padding-lg) var(--padding-0);
+align-items: flex-start;
+justify-content: flex-start;
+gap: var(--gap-5xl);
+text-align: justify;
+font-size: var(--font-size-5xl);
+color: var(--color-black);
+font-family: var(--font-montserrat);
+}
+.frame2 {
+position: absolute;
+top: 209px;
+left: 56px;
+width: 1327px;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 127px;
+}
+.login {
+flex: 1;
+position: relative;
+background-color: var(--color-white);
+height: 1279px;
+overflow: hidden;
+}
+.login-parent {
+position: relative;
+width: 100%;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+text-align: justify;
+font-size: var(--font-size-37xl);
+color: var(--color-black);
+font-family: var(--font-montserrat);
+}
+
+
+  
+  </style>
+  
+  
+  </head>
+
+  <body><div id="_lbb" style="display: none; background: rgba(69, 126, 255, 0.4); border: 1px solid #457EFF; z-index: 2147483647; position: fixed; top: 0; left: 0; pointer-events: none;"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  
+    <section class="login-parent" id="main" data-locofyid="325:104">
+      <div class="login" data-locofyid="203:8">
+        <button class="botaocadastrar-parent" id="botaoCadastro" value="" data-locofyid="61:2046">
+          <div class="botaocadastrar" data-locofyid="61:1862">
+          </div>
+          <div class="cadastrar" data-locofyid="61:1864">Cadastrar</div>
+        </button>
+        <h2 class="fazer-cadastro" id="FazerCadastro" data-locofyid="61:1858">Fazer cadastro</h2>
+        <h1 class="fazer-login" id="FazerLogin" data-locofyid="61:1795">Fazer login</h1>
+        <div class="frame-parent" data-locofyid="332:161">
+          <section class="frame" id="Footer1" data-locofyid="332:182">
+            <div class="rectangle-parent" data-locofyid="332:162">
+              <div class="frame-child" data-locofyid="45:482">
+              </div>
+              <img class="park-icon" alt="" src="./09ad93fa-8d28-42d4-8f40-27f1776b5bbe_1689715050435269648" data-locofyid="45:483" data-locofyformat="svg">
+              
+              <div class="entre-em-contato" data-locofyid="45:486">Entre em contato </div>
+              <div class="e-mail" data-locofyid="45:487">E-mail:</div>
+              <div class="nome" data-locofyid="45:488">Nome:</div>
+              <div class="frame-item" data-locofyid="45:489">
+              </div>
+              <div class="frame-inner" data-locofyid="45:490">
+              </div>
+            </div>
+            <img class="arrow-icon" alt="" src="./ae327a7c-6e1c-463c-a838-a45fdd8e904a_1689715050435990119" data-locofyid="45:501" data-locofyformat="svg">
+            
+            <img class="arrow-icon" alt="" src="./ae327a7c-6e1c-463c-a838-a45fdd8e904a_1689715050435990119" data-locofyid="45:502" data-locofyformat="svg">
+            
+            <img class="vector-icon" alt="" src="./7b22654f-cc40-4354-acb1-2995649fc20e_1689715050437137819" data-locofyid="45:503" data-locofyformat="svg">
+            
+            <img class="vector-icon" alt="" src="./7b22654f-cc40-4354-acb1-2995649fc20e_1689715050437137819" data-locofyid="45:504" data-locofyformat="svg">
+            
+            <img class="vector-icon2" alt="" src="./9f4f778f-8802-4678-9616-1e90af794ca6_1689715050438052126" data-locofyid="45:505" data-locofyformat="svg">
+            
+            <img class="vector-icon2" alt="" src="./9f4f778f-8802-4678-9616-1e90af794ca6_1689715050438052126" data-locofyid="45:506" data-locofyformat="svg">
+            
+            <img class="vector-icon4" alt="" src="./6664d145-e825-4ecc-9855-37f39bedfe0d_1689715050439602573" data-locofyid="45:507" data-locofyformat="svg">
+            
+            <img class="vector-icon4" alt="" src="./6664d145-e825-4ecc-9855-37f39bedfe0d_1689715050439602573" data-locofyid="45:508" data-locofyformat="svg">
+            
+            <img class="group-icon" alt="" src="./487357f4-e27c-434c-9055-91f8b4746cbb_1689715626850830237" data-locofyid="45:533" data-locofyformat="svg">
+            
+            <img class="group-icon" alt="" src="./487357f4-e27c-434c-9055-91f8b4746cbb_1689715626850830237" data-locofyid="45:572" data-locofyformat="svg">
+            
+          </section>
+          <section class="frame1" id="FormasDePagamento" data-locofyid="332:184">
+            <div class="frame-group" data-locofyid="332:163">
+              <div class="mastercard-1-parent" data-locofyid="332:164">
+                <img class="mastercard-1-icon" alt="" src="./300fa4e9-5483-444a-b289-438b189d6bf8_1689796659523603551" data-locofyid="45:512" data-locofyformat="png">
+                
+                <img class="visa-1-icon" alt="" src="./90b1c278-8204-4466-9cdb-0ed042486f6f_1689796659523802782" data-locofyid="45:511" data-locofyformat="png">
+                
+                <img class="elo-1-1" alt="" src="./d3ead505-7493-450e-ab03-4839fa2415f0_1689796659523905229" data-locofyid="45:513" data-locofyformat="png">
+                
+                <img class="bandeira-amex-png-1" alt="" src="./76b4464c-ff8d-4641-998f-3a0be8a19613_1689796659523997789" data-locofyid="45:514" data-locofyformat="png">
+                
+              </div>
+              <div class="formas-de-pagamento" data-locofyid="45:515">Formas de pagamento: </div>
+              <img class="logopix-powered-by-banco-cent-icon" alt="" src="./46f6a28c-ddb3-4299-8a88-c4385e758d47_1689715050441621780" data-locofyid="45:516" data-locofyformat="png">
+              
+              <img class="boleto-logo-0-1-icon" alt="" src="./891616ab-2622-4bb9-af6b-de7650dff28e_1689715050441873547" data-locofyid="45:517" data-locofyformat="png">
+              
+              <div class="greenoakcombr" data-locofyid="45:518">greenoak.com.br</div>
+              <img class="copyright-icon" alt="" src="./7406f3c0-ccdf-47df-aade-05dc2017474b_1689715050442637320" data-locofyid="45:519" data-locofyformat="svg">
+              
+              <div class="todos-os-direitos" data-locofyid="45:520">Todos os direitos reservados </div>
+            </div>
+            <div class="frame-container" data-locofyid="332:165">
+              <div class="mastercard-1-parent" data-locofyid="332:166">
+                <img class="mastercard-1-icon" alt="" src="./9cf0d10f-ae5c-40f2-812f-27f1b6d2983a_1689796659524084393" data-locofyid="45:524" data-locofyformat="png">
+                
+                <img class="visa-1-icon" alt="" src="./5a32ec98-d427-46d7-b206-e138bded9b9e_1689796659524164404" data-locofyid="45:523" data-locofyformat="png">
+                
+                <img class="elo-1-1" alt="" src="./a6f76d61-832e-4877-96d0-dfae2d5dbfba_1689796659524236790" data-locofyid="45:525" data-locofyformat="png">
+                
+                <img class="bandeira-amex-png-1" alt="" src="./c77634a2-6357-4ffd-a096-2203a36f129b_1689796659524309681" data-locofyid="45:526" data-locofyformat="png">
+                
+              </div>
+              <div class="formas-de-pagamento" data-locofyid="45:527">Formas de pagamento: </div>
+              <img class="logopix-powered-by-banco-cent-icon" alt="" src="./46f6a28c-ddb3-4299-8a88-c4385e758d47_1689715050441621780" data-locofyid="45:528" data-locofyformat="png">
+              
+              <img class="boleto-logo-0-1-icon" alt="" src="./891616ab-2622-4bb9-af6b-de7650dff28e_1689715050441873547" data-locofyid="45:529" data-locofyformat="png">
+              
+              <div class="greenoakcombr" data-locofyid="45:530">greenoak.com.br</div>
+              <img class="copyright-icon" alt="" src="./7406f3c0-ccdf-47df-aade-05dc2017474b_1689715050442637320" data-locofyid="45:531" data-locofyformat="svg">
+              
+              <div class="todos-os-direitos" data-locofyid="45:532">Todos os direitos reservados </div>
+            </div>
+          </section>
+        </div>
+        <section class="frame2" id="Formularios" data-locofyid="332:177">
+          <section class="frame3" id="FormLogin" data-locofyid="332:188">
+            <button class="botaoentrar" autofocus="" id="botaoEntrar" value="" data-locofyid="321:99">
+              <div class="botaocadastrar" data-locofyid="61:1800">
+              </div>
+              <div class="entrar" data-locofyid="61:1801">Entrar</div>
+            </button>
+            <div class="frame4" id="DivForm1" data-locofyid="332:193">
+              <div class="frame-div" data-locofyid="61:2019">
+                <div class="e-mail-parent" data-locofyid="61:2016">
+                  <div class="senha" data-locofyid="61:2010">E-mail</div>
+                  <div class="inputemaillogin-parent" data-locofyid="332:159">
+                    <input class="inputemaillogin" type="email" maxlength="" minlength="" data-locofyite="" id="emaillogin" data-locofyid="61:1796">
+                    
+                    <div class="e-mail2" data-locofyid="61:1798">E-mail</div>
+                  </div>
+                </div>
+                <div class="e-mail-parent" data-locofyid="61:2017">
+                  <div class="senha" data-locofyid="61:2011">Senha</div>
+                  <div class="inputemaillogin-parent" data-locofyid="332:160">
+                    <input class="inputemaillogin" type="password" maxlength="" minlength="" required="" data-locofyite="" id="password" data-locofyid="61:1797">
+                    
+                    <div class="e-mail2" data-locofyid="61:1799">Senha</div>
+                  </div>
+                </div>
+              </div>
+              <button class="esqueci-a-senha" autofocus="" data-locofyid="61:1802">Esqueci a senha </button>
+            </div>
+            <div class="frame5" id="frameContainer11" data-locofyite="" data-locofyid="332:195">
+              <div class="ainda-no-tenho" data-locofyid="61:1997" data-animate-on-scroll="">Ainda não tenho cadastro </div>
+              <div class="line-div" data-locofyid="61:2004">
+              </div>
+            </div>
+          </section>
+          <section class="frame-section" id="FormCadastro" data-locofyid="61:2020">
+            <div class="e-mail-parent" data-locofyid="61:2021">
+              <div class="senha" data-locofyid="61:2022">Nome</div>
+              <div class="inputemaillogin-parent" data-locofyid="332:167">
+                <input class="inputemaillogin" type="text" defaultvalue="input-email" maxlength="" minlength="" required="" data-locofyite="" id="text" data-scroll-to="inputNomeCadastro" data-locofyid="61:2024">
+                
+                <div class="e-mail2" data-locofyid="61:2025">Nome</div>
+              </div>
+            </div>
+            <div class="e-mail-parent" data-locofyid="61:2026">
+              <div class="senha" data-locofyid="61:2027">CPF</div>
+              <div class="inputemaillogin-parent" data-locofyid="332:168">
+                <input class="inputemaillogin" type="text" maxlength="" minlength="" required="" data-locofyite="" id="cpfCadastro" data-locofyid="61:2029">
+                
+                <div class="e-mail2" data-locofyid="61:2030">CPF</div>
+              </div>
+            </div>
+            <div class="e-mail-parent" data-locofyid="61:2036">
+              <div class="senha" data-locofyid="61:2037">E-mail</div>
+              <div class="inputemaillogin-parent" data-locofyid="332:169">
+                <input class="inputemaillogin" type="email" maxlength="" minlength="" data-locofyite="" id="iputEmailCadastro" data-locofyid="61:2039">
+                
+                <div class="e-mail2" data-locofyid="61:2040">E-mail</div>
+              </div>
+            </div>
+            <div class="e-mail-parent" data-locofyid="61:2041">
+              <div class="senha" data-locofyid="61:2042">Senha</div>
+              <div class="inputemaillogin-parent" data-locofyid="332:170">
+                <input class="inputemaillogin" type="password" maxlength="" minlength="" data-locofyite="" id="inputSenhaCadastro" data-locofyid="61:2044">
+                
+                <div class="e-mail2" data-locofyid="61:2045">Senha</div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </section><script>
+          var frameContainer11 = document.getElementById("frameContainer11");
+          if(frameContainer11) {
+            frameContainer11.addEventListener("click", function () {
+              var anchor = document.querySelector("[data-scroll-to='inputNomeCadastro']"); 
+        if(anchor) { 
+          anchor.scrollIntoView({"block":"start","behavior":"smooth"}) }
+            });
+          }
+        
+var scrollAnimElements = document.querySelectorAll('[data-animate-on-scroll]');
+  var observer = new IntersectionObserver((entries) => {
+    for(const entry of entries) {
+      if (entry.isIntersecting || entry.intersectionRatio > 0) {
+        const targetElement = entry.target;
+        targetElement.classList.add("animate");
+        observer.unobserve(targetElement);
+      }
+    }
+  }, {
+    threshold: 0.15,
+  });
+
+  for (let i = 0; i < scrollAnimElements.length; i++) {
+    observer.observe(scrollAnimElements[i]);
+  }</script>
+  <script>
+    var w = window;
+    setTimeout(function(){ w.parent.postMessage("RENDERED"); }, 10)
+    var resizeObserver = new ResizeObserver(entries => {
+      const body = entries[0].target;
+      const height = Math.ceil(body.scrollHeight);
+      if(!height) return;
+      w.parent.postMessage(`~HEIGHT|${height}`);
+    });
+    resizeObserver.observe(document.body);
+    
+  function _showRipples() {
+    const doc = document;
+    const w = window;
+    const sx = w.scrollX || w.pageXOffset;
+    const sy = w.scrollY || w.pageYOffset;
+
+    const list = doc.querySelectorAll('[data-locofyite]');
+    for(let i=0; i<list.length; i++) {
+        const e = list[i];
+        const rect = e.getBoundingClientRect();
+        const r = doc.createElement('div');
+        r.classList.add('_ripple');
+        const x = (rect.x-14) + sx;
+        const y = (rect.y-14) + sy;
+        const style = "z-index: 99999; position: absolute; left: " + x + "px; top: " + y + "px;";
+        r.style = style;
+        //console.log(r);
+        doc.body.appendChild(r);
+        setTimeout(() => r.remove(), 2500);
+    }
+  }
+  function _removeRipples() {
+    const list = document.querySelectorAll('._ripple');
+    for(let i=0; i<list.length; i++) {
+      list[i].remove();
+    }
+  }
+  document.addEventListener("mousedown", function(e) {
+    if(document.body.parentElement.hasAttribute('edit')) return;
+    const t = e.target;
+    let tp = t;
+    if(tp.classList.contains('portalPopupOverlay')) return;
+
+    while(tp) {
+      if(tp.getAttribute('data-locofyite') !== null) return;
+      const cl = tp.classList;
+      if(cl.contains('MuiModal-root')) return;
+      tp = tp.parentElement;
+    }
+    _removeRipples();
+    _showRipples();
+  });
+  </script>
+  
+  
+  
+<div id="activeUsersGroup-203:8" class="activeUsersGroup activeUsersGroup-203:8" style="position: absolute; top: 0px; left: 0px; width: 1440px; height: 1279px; border: 1px solid rgb(247, 148, 109);"></div><div id="activeUsers-203:8" class="activeUsers activeUsers-203:8" style="position: absolute; top: -16px; left: 0px; width: 1440px;"><div class="activeUser" id="activeuserAcWguRxEUjZwINXnQA4EPUGfgmt2" style="background-color: #F7946D;font-size: 12px;height: 16px;line-height: 16px;">You</div></div></body></html>

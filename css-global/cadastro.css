@@ -1,0 +1,526 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-montserrat: Montserrat;
+  
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-5xl: 24px;
+    --font-size-xs: 12px;
+    --font-size-2xs: 11px;
+    --font-size-xl: 20px;
+    --font-size-7xl: 26px;
+    --font-size-37xl: 56px;
+    --font-size-17xl: 36px;
+    --font-size-3xs: 10px;
+    --font-size-13xl: 32px;
+    --font-size-45xl: 64px;
+    --font-size-29xl: 48px;
+    --font-size-11xl: 30px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --cinza: #646867;
+    --color-dimgray-100: rgba(100, 104, 103, 0.62);
+    --color-dimgray-200: rgba(100, 104, 103, 0.2);
+    --verde: #2b3b37;
+    --color-black: #000;
+    --color-gray: #818085;
+  
+    /* Gaps */
+    --gap-5xl: 24px;
+    --gap-sm: 14px;
+    --gap-base: 16px;
+    --gap-45xl: 64px;
+  
+    /* Paddings */
+    --padding-lg: 18px;
+    --padding-0: 0px;
+    --padding-base: 16px;
+  
+    /* border radiuses */
+    --br-3xs: 10px;
+    --br-8xs: 5px;
+    --br-11xl: 30px;
+  }
+  
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .botaocadastrar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: var(--verde);
+    border: 1px solid var(--verde);
+    box-sizing: border-box;
+    width: 200px;
+    height: 72px;
+  }
+  .cadastrar {
+    position: absolute;
+    top: 16px;
+    left: 36px;
+    font-size: var(--font-size-5xl);
+    letter-spacing: 0.05em;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--color-white);
+    text-align: justify;
+  }
+  .botaocadastrar-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 869px;
+    left: 992px;
+    width: 200px;
+    height: 72px;
+  }
+  .fazer-cadastro,
+  .fazer-login {
+    margin: 0;
+    position: absolute;
+    top: 105px;
+    left: 833px;
+    font-size: inherit;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .fazer-login {
+    left: 177px;
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--verde);
+    width: 1440px;
+    height: 120px;
+  }
+  .park-icon {
+    position: absolute;
+    top: 38.22px;
+    left: 34px;
+    width: 49px;
+    height: 43.56px;
+  }
+  .e-mail,
+  .entre-em-contato,
+  .nome {
+    position: absolute;
+    display: inline-block;
+  }
+  .entre-em-contato {
+    top: 45.33px;
+    left: 595px;
+    font-size: var(--font-size-7xl);
+    width: 229px;
+    height: 28.44px;
+  }
+  .e-mail,
+  .nome {
+    top: 24px;
+    left: 905px;
+    font-weight: 100;
+    width: 45px;
+    height: 17px;
+  }
+  .nome {
+    top: 78px;
+    width: 42px;
+    height: 16px;
+  }
+  .frame-inner,
+  .frame-item {
+    position: absolute;
+    top: 15.11px;
+    left: 905px;
+    border-bottom: 0.7px solid var(--color-white);
+    box-sizing: border-box;
+    width: 493px;
+    height: 25.78px;
+  }
+  .frame-inner {
+    top: 61.33px;
+    height: 32.89px;
+  }
+  .arrow-icon,
+  .rectangle-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 120px;
+  }
+  .arrow-icon {
+    top: 78.42px;
+    left: 1366px;
+    width: 30.35px;
+    height: 5.15px;
+  }
+  .vector-icon {
+    position: absolute;
+    right: 71.25%;
+    left: 27.5%;
+    overflow: hidden;
+  }
+  .vector-icon,
+  .vector-icon2,
+  .vector-icon4 {
+    height: 15%;
+    width: 1.25%;
+    top: 42.5%;
+    bottom: 42.5%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .vector-icon2 {
+    position: absolute;
+    right: 74.44%;
+    left: 24.31%;
+    overflow: hidden;
+  }
+  .vector-icon4 {
+    right: 68.13%;
+    left: 30.63%;
+  }
+  .frame,
+  .group-icon,
+  .vector-icon4 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .group-icon {
+    height: 39.69%;
+    width: 9.65%;
+    top: 31.67%;
+    right: 86.74%;
+    bottom: 28.64%;
+    left: 3.61%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .frame {
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 120px;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+    font-family: var(--font-montserrat);
+  }
+  .mastercard-1-icon {
+    position: relative;
+    width: 31.59px;
+    height: 24.39px;
+    object-fit: cover;
+  }
+  .bandeira-amex-png-1,
+  .elo-1-1,
+  .visa-1-icon {
+    position: relative;
+    width: 42.68px;
+    height: 13.86px;
+    object-fit: cover;
+  }
+  .bandeira-amex-png-1,
+  .elo-1-1 {
+    width: 44.9px;
+    height: 17.18px;
+  }
+  .bandeira-amex-png-1 {
+    width: 24.94px;
+    height: 24.94px;
+  }
+  .mastercard-1-parent {
+    position: absolute;
+    top: 19px;
+    left: 273px;
+    width: 194px;
+    height: 24.94px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-0) var(--padding-0) 0.00006103515625px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .formas-de-pagamento {
+    position: absolute;
+    top: 19px;
+    left: 0;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+  }
+  .boleto-logo-0-1-icon,
+  .logopix-powered-by-banco-cent-icon {
+    position: absolute;
+    top: 22px;
+    left: 486px;
+    width: 50px;
+    height: 18px;
+    object-fit: cover;
+  }
+  .boleto-logo-0-1-icon {
+    top: 0;
+    left: 549px;
+    width: 62px;
+    height: 62px;
+  }
+  .greenoakcombr {
+    position: absolute;
+    top: 31px;
+    left: 806px;
+    font-weight: 300;
+  }
+  .copyright-icon {
+    position: absolute;
+    height: 16.13%;
+    width: 0.88%;
+    top: 54.84%;
+    right: 29.45%;
+    bottom: 29.03%;
+    left: 69.66%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .todos-os-direitos {
+    position: absolute;
+    top: 31px;
+    left: 982px;
+    font-weight: 300;
+  }
+  .frame-container,
+  .frame-group {
+    align-self: stretch;
+    position: relative;
+    height: 62px;
+  }
+  .frame-container {
+    margin-top: -62px;
+  }
+  .frame1 {
+    position: absolute;
+    top: 130px;
+    left: 34px;
+    width: 1134px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-2xs);
+    color: var(--color-gray);
+    font-family: var(--font-montserrat);
+  }
+  .frame-parent {
+    position: absolute;
+    top: 1068px;
+    left: 0;
+    width: 1440px;
+    height: 229px;
+  }
+  .entrar {
+    position: absolute;
+    top: 16px;
+    left: 62px;
+    font-size: var(--font-size-5xl);
+    letter-spacing: 0.05em;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--color-white);
+    text-align: justify;
+  }
+  .botaoentrar,
+  .inputemaillogin {
+    background-color: transparent;
+    position: absolute;
+    height: 72px;
+  }
+  .botaoentrar {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    top: 398px;
+    left: 216px;
+    width: 200px;
+  }
+  .inputemaillogin {
+    border: 1px solid var(--verde);
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    box-sizing: border-box;
+    width: 600px;
+  }
+  .e-mail2 {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    line-height: 40px;
+    font-weight: 200;
+  }
+  .inputemaillogin-parent {
+    align-self: stretch;
+    position: relative;
+    height: 72px;
+    font-size: var(--font-size-base);
+    color: var(--cinza);
+  }
+  .e-mail-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+  }
+  .senha {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 40px;
+  }
+  .frame-div {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-lg) var(--padding-0);
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .esqueci-a-senha {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    font-size: var(--font-size-xs);
+    text-decoration: underline;
+    letter-spacing: 0.05em;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--color-black);
+    text-align: justify;
+    display: inline-block;
+  }
+  .frame4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .ainda-no-tenho {
+    position: absolute;
+    top: 0;
+    left: 11px;
+    letter-spacing: 0.1em;
+    line-height: 40px;
+    font-weight: 500;
+    opacity: 0;
+  }
+  .ainda-no-tenho.animate {
+    animation: 1s ease 0s 1 normal forwards fade-in;
+  }
+  .line-div {
+    position: absolute;
+    top: 39.5px;
+    left: -0.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 291px;
+    height: 1px;
+  }
+  .frame5 {
+    position: absolute;
+    top: 540px;
+    left: 171px;
+    width: 290px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .frame3 {
+    flex: 1;
+    position: relative;
+    height: 580px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  .frame-section,
+  .frame2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-section {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-lg) var(--padding-0);
+    gap: var(--gap-5xl);
+    text-align: justify;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  .frame2 {
+    position: absolute;
+    top: 209px;
+    left: 56px;
+    width: 1327px;
+    overflow: hidden;
+    flex-direction: row;
+    gap: 127px;
+  }
+  .login,
+  .login-parent {
+    position: relative;
+    overflow: hidden;
+  }
+  .login {
+    flex: 1;
+    background-color: var(--color-white);
+    height: 1279px;
+  }
+  .login-parent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: justify;
+    font-size: var(--font-size-37xl);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  

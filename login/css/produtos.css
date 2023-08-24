@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+:root {
+    --gunmetal: #2b3b37ff;
+    --dim-gray: #646867ff;
+    --white: #ffffffff;
+    --platinum: #e2e2e2ff;
+    --black: #000000ff;
+  }
+body,
+h1, h2, h3, h4, p, ul, li, a {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h4{
+color: #000000;
+font-family: "Montserrat-Light", Helvetica;
+font-size: 15px;
+font-weight: 300;
+left: 0;
+letter-spacing: 2px;
+line-height: normal;
+padding: 10px;
+}
+p{
+  padding: 10px;
+  text-decoration: line-through;
+}
+/* Set a base font and background color */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+}
+
+/* Style for the header */
+header {
+  background-color: #ffffff;
+  color: rgb(8, 6, 6);
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style for the main title */
+.titulo-da-pag {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.titulo-da-pag img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.titulo-da-pag h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.lista-de-produtos1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribui os cards com espaço entre eles */
+  max-width: 1200px; /* Define uma largura máxima para a container */
+  margin: 0 auto;
+}
+
+/* Styles for product cards */
+.card-produtos {
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin: 10px;
+   padding: 20px;
+   text-align: center;
+   transition: transform 0.3s;
+   cursor: pointer;
+   flex: 1 1 calc(33.33% - 20px);
+   max-width: 300px;
+}
+.card-produtos:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Adjusting shadow on hover */
+}
+.card-produtos img {
+    width: 200px; /* Ajusta a imagem à largura do card */
+    height: 200px; /* Ajusta a imagem à altura do card */
+    object-fit: fill; /* Mantém a proporção e recorta se necessário */
+    border-radius: 10px;
+}
+
+.card-produtos h3 {
+    font-size: 1.2rem; /* Tamanho da fonte */
+    margin: 10px 0; /* Espaçamento nas margens superior e inferior */
+    color: #333; /* Cor do texto */
+    text-align: center
+}
+
+.card-produtos p {
+  font-size: 18px;
+  color: #888;
+}
+
+.card-produtos button {
+  background-color: #2b3b37ff;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #646867ff;
+}
+.banner {
+  position: relative; /* Necessário para posicionar o botão */
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  max-width: 100%; /* Adicionado para tornar o banner responsivo */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.banner-button {
+  position: absolute; /* Posiciona o botão sobre a imagem */
+  top: 85%; /* Move o botão para o meio vertical */
+  left: 77%; /* Move o botão para o meio horizontal */
+  transform: translate(-50%, -50%); /* Centraliza o botão completamente */
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color:rgba(202, 186, 186, 0.5);
+  color: #fff;
+  font-family: 'Montserrat';
+  border: none;
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer;
+}
+
+/* Footer styles */
+.rodape {
+  background-color: #2B3B37;
+  color: white;
+  padding: 20px;
+}
+
+.rodape footer {
+  background-color: #2B3B37;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-footer{
+  padding: 10px;
+  text-align: center;
+  display: flexbox;
+}
+
+.imagens-footer {
+  display: flex;
+  align-items: center;
+}
+
+.imagens-footer img {
+  width: auto;
+  justify-content: space-between;
+  height: 18px;
+  margin: 15px 15px 15px 0;
+  padding-top: 10px;
+}
+
+.contato-footer {
+  text-align: left;
+  flex: 1;
+  margin-left: 950px;
+}
+
+.contato-footer h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.input-footer {
+  width: 20%;
+  background-color: #2B3B37;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #2B3B37;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.formas-de-pagamento{
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flexbox;
+}
+.formas-de-pagemento-txt{
+  height: 24px;
+  width: 234px;
+  margin-top: 20px;
+  left: 20px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.formas-de-pagamento img {
+  width: auto;
+  justify-content: space-between;
+  height: 18px;
+  margin: 15px 15px 15px 0;
+  padding-top: 10px;
+}
+
+.formas-de-pagamento p {
+  top: 3px;
+  left: 80px;
+  font-weight: 300;
+  margin-top: 1px;
+  color: #070606;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  /* Adjust header, main title, and product card styles */
+  
+  /* Adjust footer styles */
+  
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 576px) {
+  /* Further adjust header, main title, and product card styles */
+  
+  /* Further adjust footer styles */
+  
+}
+/* Reset and base styles */
+
+/* Header styles */
+
+/* Main title styles */
+
+/* Product card styles */
+
+/* Footer styles */
+
+/* Responsive styles */
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  header {
+      padding: 10px 0;
+  }
+  
+  .titulo-da-pag {
+      padding: 10px;
+  }
+  
+  .titulo-da-pag h1 {
+      font-size: 18px;
+  }
+  
+  .card-produtos {
+      width: 100%;
+      margin: 10px 0;
+  }
+  
+  .rodape {
+      padding: 10px;
+  }
+  
+  .imagens-footer img {
+      width: 20px;
+      height: 20px;
+  }
+  
+  .contato-footer h3 {
+      font-size: 18px;
+  }
+  
+  .input-footer {
+      font-size: 14px;
+  }
+ .formas-de-pagamento{
+     width: 10px;
+     padding: 10px ;
+ } 
+  .formas-de-pagamento img {
+      width: 30px;
+  }
+  
+  .formas-de-pagamento p {
+      font-size: 12px;
+  }
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 576px) {
+  .titulo-da-pag h1 {
+      font-size: 16px;
+  }
+  
+  .card-produtos {
+      padding: 10px;
+  }
+  
+  .card-produtos h3 {
+      font-size: 16px;
+  }
+  
+  .card-produtos p {
+      font-size: 14px;
+  }
+  
+  .card-produtos button {
+      font-size: 14px;
+  }
+  
+  .rodape {
+      padding: 5px;
+  }
+  
+  .contato-footer h3 {
+      font-size: 16px;
+  }
+  
+  .input-footer {
+      font-size: 12px;
+  }
+  
+  .formas-de-pagamento img {
+      width: 20px;
+  }
+  
+  .formas-de-pagamento p {
+      font-size: 10px;
+  }
+}

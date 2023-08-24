@@ -38,8 +38,13 @@ body {
 }
 
 .navbar-brand .logo {
+  margin: 20px;
   color: var(--white);
   text-decoration: none;
+  height: 48px;
+  left: 0;
+  top: 10;
+  width: 139px;
 }
 
 .navbar-menu {
